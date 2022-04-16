@@ -1,0 +1,117 @@
+/* PROJETO */
+
+.body_home {
+    background-color: rgb(92, 110, 92);
+    margin: 0px;
+}
+
+.cabecalho {
+    background-color: #1e1e1e;
+    height: 200px;
+}
+
+.img_projeto {
+    padding: 15px;
+}
+
+.cx_pesquisa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -4%;
+}
+
+.nav1 {
+    padding-left: 35%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+} 
+
+.cadastro_entrar {
+    padding-left: 90%;
+    padding: 10;
+    font-size: 1.2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif;
+}
+
+.img_body {
+    background-image: url(fundo.jpg);
+}
+
+.imagemBody {
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    height: 550px;
+    justify-content: space-around;
+}
+
+.legendasFotos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: monospace;
+    color: black;
+    font-size: 1.2em;
+}
+
+.sugestao {
+    color: black;
+}
+
+.input_pesquisa {
+    margin: 0 auto;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/* CADASTRO */
+
+.body_cadastro {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header_cadastro {
+    background-color: #1e1e1e;
+    height: 200px;
+    margin: -8px;
+}
+
+.img_cadastro {
+    padding: 15px;
+}
+
+.voltar {
+    display: flex;
+    justify-content: right;
+    padding-right: 30px;
+    color: rgb(28, 216, 223);
+    font-size: 1.2em;
+}
+
+.formulario {
+    margin-top: -19px;
+    background-image: url(fundo.jpg);
+}
+
+.caixa_formulario {
+    font-size: 15px;
+    padding: 4px; 
+    margin: 5px;
+    border-radius: 3px;
+}
+
+
+/* ENTRAR */
+
+.body_entrar {
+    background-image: url(fundo.jpg);
+}
+
+.login_senha {
+    padding: 10px;
+}

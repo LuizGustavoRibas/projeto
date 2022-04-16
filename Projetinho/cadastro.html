@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Cadastro</title>
+        <link rel="stylesheet" href="estilizacao.css">
+        <meta charset="utf-8">
+    </head>
+    <body class="body_cadastro">
+        <header class="header_cadastro">
+            <img src="LOGO.png" alt="logo" class="img_cadastro">
+            <a href="projeto.html" class="voltar">Voltar</a>
+        </header>
+        <div class="imagem_body">
+        <h2>Cadastro</h2>
+        <p>Insira os dados solicitados:</p>
+        <form>
+            <fieldset>
+                <label for="nome">Nome completo: </label>
+                <input id="nome" type="text" class="caixa_formulario"> <br><br>
+                <label>Gênero: </label>
+                <label for="genero">Masculino</label>
+                <input id="genero" type="radio" class="caixa_formulario">
+                <label id="genero" for="feminino">Feminino</label>
+                <input id="genero" type="radio" class="caixa_formulario"> <br><br>
+                <label for="cpf">CPF: </label>
+                <input id="cpf" type="text" class="caixa_formulario"> <br><br>
+                <label for="endereco">Endereço: </label>
+                <input id="endereco" size="35px" type="text" class="caixa_formulario"> 
+                <label for="numero">Número: </label>
+                <input id="numero" size="5px" type="text" class="caixa_formulario">
+                <label for="bairro">Bairro: </label>
+                <input id="bairro" size="15px" type="text" class="caixa_formulario"> <br><br>
+                <label for="cidade">Cidade:</label>
+                <input id="cidade" type="text" class="caixa_formulario"> <br><br>
+                <label for="estado">Estado: </label>
+                <input id="estado" type="text" class="caixa_formulario"> <br><br>
+                <label for="email">Email: </label>
+                <input id="email" type="text" class="caixa_formulario"> <br><br>
+                <label for="senha">Senha: </label>
+                <input id="senha" type="password" class="caixa_formulario"> <br><br>
+                <label for="repita">Repita a senha: </label>
+                <input id="repita" type="password" class="caixa_formulario"> <br><br>
+                <label for="informacoes">Desejo receber informações de promoções por e-mail</label> <br><br>
+                <label id="informacoes_sim" for="sim">Sim</label>
+                <input id="informacoes_sim" type="radio" class="caixa_formulario">
+                <label id="informacoes_nao" for="sim">Não</label>
+                <input id="informacoes_nao" type="radio" class="caixa_formulario">
+
+            </fieldset> <br>
+            <button type="submit">Enviar</button>
+        </form>
+        </div>
+    </body>
+</html>
